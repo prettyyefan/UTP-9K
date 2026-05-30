@@ -8,8 +8,8 @@ This repository is licensed under the Creative Commons Attribution-NonCommercial
 
 ### You are free to:
 
-* **Share** — copy and redistribute the material in any medium or format. (在任何媒介以任何形式复制、发行本作品。)
-* **Adapt** — remix, transform, and build upon the material. (修改、转换或以本作品为基础进行创作。)
+* **Share** — copy and redistribute the material in any medium or format.
+* **Adapt** — remix, transform, and build upon the material.
 
 ### Under the following terms:
 
