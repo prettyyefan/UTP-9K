@@ -54,23 +54,23 @@ flowchart LR
 ## Demonstration
 
 <p align="center">
-  <a href="./Figs/Demonstration.mov">
+  <a href="./Figs/Demonstration.gif">
     <img src="./Figs/comparison.jpg" width="94%" alt="Click to open the UTP-9K demonstration video">
   </a>
 </p>
 
-<p align="center"><b>▶ Click the qualitative preview to open <code>Figs/Demonstration.mov</code>.</b></p>
+<p align="center"><b>▶ Click the qualitative preview to open <code>Figs/Demonstration.gif</code>.</b></p>
 
 For an animated README preview and a browser-compatible H.264 copy:
 
 ```bash
-python tools/make_readme_assets.py --video Figs/Demonstration.mov
+python tools/make_readme_assets.py --video Figs/Demonstration.gif
 ```
 
-After generating `Figs/Demonstration_preview.gif`, replace the image source above with:
+After generating `Figs/Demonstration.gif`, replace the image source above with:
 
 ```html
-<img src="./Figs/Demonstration_preview.gif" width="94%" alt="UTP-9K video demonstration">
+<img src="./Figs/Demonstration.gif" width="94%" alt="UTP-9K video demonstration">
 ```
 
 ## UTP-9K Benchmark
@@ -243,7 +243,7 @@ python scripts/infer_video.py \
   --sam2-config configs/sam2.1/sam2.1_hiera_l.yaml \
   --sam2-checkpoint checkpoints/sam2.1_hiera_large.pt \
   --altitude 30 \
-  --output outputs/demonstration.mp4
+  --output outputs/Demonstration.gif
 ```
 
 ## Evaluation
@@ -262,7 +262,7 @@ The evaluator reports Macro-F1, class-wise F1, Moving-as-Obstacle FP, and Artifa
 
 ```text
 UTP-9K/
-├── Figs/                       # README images and Demonstration.mov
+├── Figs/                       # README images and Demonstration.gif
 ├── configs/default.yaml
 ├── docs/DATA_FORMAT.md
 ├── examples/
