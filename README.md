@@ -53,11 +53,13 @@ flowchart LR
 
 ## Demonstration
 
-https://github.com/user-attachments/assets/a6ce5ed4-b7bc-4164-81e7-b72cefcc085e
+<table align="center">
 
-<p>
-  <b>▶ Click the preview to watch the demonstration.</b>
-</p>
+
+https://github.com/user-attachments/assets/0b694cd6-e2d0-40e9-9565-1486e2a14987
+
+
+</table>
 
 > GitHub README files cannot render a `.mov` file through an `<img>` tag.  
 > The image above is therefore used as a clickable preview for the full video.
