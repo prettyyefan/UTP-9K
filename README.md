@@ -53,7 +53,7 @@ flowchart LR
 
 ## Demonstration
 
-https://github.com/user-attachments/assets/318559ff-c9fe-47b8-a461-f0495165a4bf
+<img width="640" height="568" alt="Demonstration" src="https://github.com/user-attachments/assets/c122c1ba-da37-4698-885a-ad1b4c5b8dce" />
 
 <p align="center">
   <i>Role-aware tactile-path perception from UAV videos.</i>
