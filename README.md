@@ -53,14 +53,11 @@ flowchart LR
 
 ## Demonstration
 
-<p align="center">
-  <a href="./Figs/Demonstration.mov">
-    <img src="./Figs/comparison.jpg" width="94%" alt="Click to open the UTP-9K demonstration video">
-  </a>
-</p>
+
+https://github.com/user-attachments/assets/bb21bfc1-59d6-47f7-96e1-36ef83ff490c
 
 <p align="center">
-  <b>▶ Click the qualitative preview to open <code>Figs/Demonstration.mov</code>.</b>
+  <i>Role-aware tactile-path perception from UAV videos.</i>
 </p>
 
 > GitHub README files cannot render a `.mov` file through an `<img>` tag.  
