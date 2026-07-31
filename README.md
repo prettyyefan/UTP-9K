@@ -53,12 +53,18 @@ flowchart LR
 
 ## Demonstration
 
+<h2 align="center">Demonstration</h2>
+
 <table align="center">
+  <tr>
+    <td align="center">
+      
+
+https://github.com/user-attachments/assets/6ae03295-22e4-48de-b8e3-9d7fd2b0d5fc
 
 
-https://github.com/user-attachments/assets/0b694cd6-e2d0-40e9-9565-1486e2a14987
-
-
+    </td>
+  </tr>
 </table>
 
 > GitHub README files cannot render a `.mov` file through an `<img>` tag.  
