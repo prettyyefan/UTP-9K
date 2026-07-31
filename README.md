@@ -54,23 +54,32 @@ flowchart LR
 ## Demonstration
 
 <p align="center">
-  <a href="./Figs/Demonstration.gif">
+  <a href="./Figs/Demonstration.mov">
     <img src="./Figs/comparison.jpg" width="94%" alt="Click to open the UTP-9K demonstration video">
   </a>
 </p>
 
-<p align="center"><b>▶ Click the qualitative preview to open <code>Figs/Demonstration.gif</code>.</b></p>
+<p align="center">
+  <b>▶ Click the qualitative preview to open <code>Figs/Demonstration.mov</code>.</b>
+</p>
 
-For an animated README preview and a browser-compatible H.264 copy:
+> GitHub README files cannot render a `.mov` file through an `<img>` tag.  
+> The image above is therefore used as a clickable preview for the full video.
+
+To generate an animated GIF preview and a browser-compatible H.264 copy from the MOV file:
 
 ```bash
-python tools/make_readme_assets.py --video Figs/Demonstration.gif
+python tools/make_readme_assets.py --video Figs/Demonstration.mov
 ```
 
-After generating `Figs/Demonstration.gif`, replace the image source above with:
+After generating `Figs/Demonstration_preview.gif`, the preview can be changed to:
 
 ```html
-<img src="./Figs/Demonstration.gif" width="94%" alt="UTP-9K video demonstration">
+<p align="center">
+  <a href="./Figs/Demonstration.mov">
+    <img src="./Figs/Demonstration_preview.gif" width="94%" alt="UTP-9K video demonstration">
+  </a>
+</p>
 ```
 
 ## UTP-9K Benchmark
@@ -262,7 +271,7 @@ The evaluator reports Macro-F1, class-wise F1, Moving-as-Obstacle FP, and Artifa
 
 ```text
 UTP-9K/
-├── Figs/                       # README images and Demonstration.gif
+├── Figs/                       # README images and Demonstration.mov
 ├── configs/default.yaml
 ├── docs/DATA_FORMAT.md
 ├── examples/
