@@ -57,7 +57,7 @@ flowchart LR
 
 <table align="center">
   <tr>
-      
+      <td>
 
 https://github.com/user-attachments/assets/6ae03295-22e4-48de-b8e3-9d7fd2b0d5fc
 
