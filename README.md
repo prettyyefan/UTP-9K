@@ -53,29 +53,11 @@ flowchart LR
 
 ## Demonstration
 
-<h2 align="center">Demonstration</h2>
+https://github.com/user-attachments/assets/a6ce5ed4-b7bc-4164-81e7-b72cefcc085e
 
-<table align="center">
-  <tr>
-    <td align="center">
-      <h3>🎬 UTP-9K Video Demonstration</h3>
-
-      
-
-https://github.com/user-attachments/assets/7df0788a-4d97-4891-98ef-31308281dfc6
-
-
-
-      <p>
-        <b>▶ Click the preview to watch the full demonstration.</b>
-      </p>
-
-      <sub>
-        Role-aware tactile-path perception from UAV videos.
-      </sub>
-    </td>
-  </tr>
-</table>
+<p>
+  <b>▶ Click the preview to watch the demonstration.</b>
+</p>
 
 > GitHub README files cannot render a `.mov` file through an `<img>` tag.  
 > The image above is therefore used as a clickable preview for the full video.
