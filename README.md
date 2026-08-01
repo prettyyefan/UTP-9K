@@ -13,6 +13,8 @@
 
 University of Shanghai for Science and Technology · Fujian University of Technology · Yangzhou University
 
+</div>
+
 ## Overview
 
 Appearance alone cannot reliably distinguish a stationary blockage, a moving pedestrian, and a shadow-like artifact from UAV videos. We therefore formulate tactile-path monitoring as **role-aware perception**, where the model reasons about how an occupied region affects traversability.
@@ -55,6 +57,8 @@ UTP-9K contains approximately **9,000 UAV frames** from **300 video clips**, cap
 For each candidate region, optical flow is summarized by mean magnitude, magnitude variance, and directional entropy. A lightweight MLP converts these cues into a soft distribution over stationary, moving, and artifact roles. The role prompt is then fused with tactile-path spatial and altitude embeddings and injected into the SAM2 decoding pathway.
 
 ## Results
+
+Task A is evaluated on the combined 30 m and 60 m test samples, while Task B is evaluated on the 30 m subset.
 
 | Task | Main metric | Ours |
 |---|---:|---:|
