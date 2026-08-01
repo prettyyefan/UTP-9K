@@ -1,0 +1,28 @@
+model:
+  prompt_dim: 128
+  hidden_dim: 128
+  appearance_dim: 256
+  num_roles: 3
+  num_direction_bins: 8
+
+candidate_masks:
+  max_candidates: 8
+  min_area: 64
+  min_roi_overlap: 0.05
+
+training:
+  image_size: [1024, 1024]
+  epochs: 40
+  batch_size: 16
+  optimizer: adamw
+  learning_rate: 0.0001
+  weight_decay: 0.0001
+  warmup_epochs: 5
+  scheduler: cosine
+  precision: bf16
+  losses: [cross_entropy, dice]
+
+roles:
+  0: stationary
+  1: moving
+  2: artifact_shadow

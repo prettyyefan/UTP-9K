@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this code or UTP-9K, please cite the associated paper."
+title: "Role-Aware Tactile Path Perception from UAV Videos via Motion-Semantic Guidance"
+type: software
+authors:
+  - family-names: Wang
+    given-names: Yefan
+  - family-names: Wu
+    given-names: Yusen
+  - family-names: Qu
+    given-names: Lingling
+year: 2026
+repository-code: "https://github.com/prettyyefan/UTP-9K"
+url: "https://huggingface.co/datasets/prettyyefan/UTP-9K"
