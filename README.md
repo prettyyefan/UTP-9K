@@ -13,12 +13,6 @@
 
 University of Shanghai for Science and Technology · Fujian University of Technology · Yangzhou University
 
-</div>
-
-<p align="center">
-  <img src="./Figs/framework.png" width="96%" alt="Overview of the proposed motion-semantic framework">
-</p>
-
 ## Overview
 
 Appearance alone cannot reliably distinguish a stationary blockage, a moving pedestrian, and a shadow-like artifact from UAV videos. We therefore formulate tactile-path monitoring as **role-aware perception**, where the model reasons about how an occupied region affects traversability.
@@ -35,7 +29,7 @@ The framework combines:
 
 https://github.com/user-attachments/assets/6ae03295-22e4-48de-b8e3-9d7fd2b0d5fc
 
-<p align="center">
+<p>
   <i>Role-aware tactile-path perception from UAV videos.</i>
 </p>
 
@@ -59,10 +53,6 @@ UTP-9K contains approximately **9,000 UAV frames** from **300 video clips**, cap
 ## Method
 
 For each candidate region, optical flow is summarized by mean magnitude, magnitude variance, and directional entropy. A lightweight MLP converts these cues into a soft distribution over stationary, moving, and artifact roles. The role prompt is then fused with tactile-path spatial and altitude embeddings and injected into the SAM2 decoding pathway.
-
-<p align="center">
-  <img src="./Figs/motion.jpg" width="88%" alt="Motion-semantic role modeling">
-</p>
 
 ## Results
 
