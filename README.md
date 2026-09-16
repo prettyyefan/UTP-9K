@@ -139,7 +139,3 @@ python scripts/train_role_head.py \
   year      = {2026}
 }
 ```
-
-## Acknowledgements
-
-This project builds on [SAM2](https://github.com/facebookresearch/sam2) and the RAFT implementation in [torchvision](https://pytorch.org/vision/stable/models/optical_flow.html).
