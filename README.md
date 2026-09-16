@@ -129,17 +129,6 @@ python scripts/train_role_head.py \
   --output outputs/role_head.pt
 ```
 
-Video inference:
-
-```bash
-python scripts/infer_video.py \
-  --video data/demo/input.mov \
-  --roi-mask data/demo/tactile_roi.png \
-  --checkpoint outputs/role_head.pt \
-  --altitude 30 \
-  --output outputs/demonstration.mp4
-```
-
 ## Citation
 
 ```bibtex
